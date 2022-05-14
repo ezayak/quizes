@@ -10,7 +10,6 @@ import { QuizCheck } from './routes/quiz-check/quiz-check.component';
 function App() {
   return (
     <Fragment>
-      <Router basename="/quizzes">
         <Routes>
             <Route path='/' element={<Navbar />}>
                 <Route index element={<QuizList />} />
@@ -20,7 +19,6 @@ function App() {
             <Route path='/quiz-student/:quizId/:eventId' element={<QuizStudent />} />
             <Route path='/quiz-end' element={<QuizEnd />} />
         </Routes>
-      </Router>
     </Fragment>
   );
 }
