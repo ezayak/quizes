@@ -132,7 +132,7 @@ const QuizQuestionEdit = ({hide, save, id, quizId, question, questionType, point
                     <label className="active" htmlFor="question">Image link</label>
                 </div>
                 <div className="col l2 m2 s12">
-                    <img src={data.imageLink} style={{"maxHeight":"100px"}} alt="question"/>
+                    {data.imageLink && <img src={data.imageLink} style={{"maxHeight":"100px"}} alt=""/>}
                 </div>
             </div>
             <div className="row">

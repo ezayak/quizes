@@ -43,7 +43,7 @@ const QuizQuestion = (props) => {
                             <QuizAnswers answers={answers} questionType={props.questionType} onChangeAnswer={onChangeAnswer}/>
                         </div>
                         <div className="picture-cotainer">
-                            <img src={props.imageLink} style={{"width":"250px"}} alt="question"/>
+                            {props.imageLink && <img src={props.imageLink} style={{"width":"250px"}} alt=""/>}
                         </div>
                         
                     </div>

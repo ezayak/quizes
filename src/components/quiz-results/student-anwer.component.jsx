@@ -42,7 +42,7 @@ const StudentAnswer = (props) => {
     return (
         <tr>
             <td>{data.question}</td>
-            <td>{data.imageLinkQuestion && <img src={data.imageLinkQuestion} style={{"width": "50px"}} alt="question"/>}</td>
+            <td>{data.imageLinkQuestion && <img src={data.imageLinkQuestion} style={{"width": "50px"}} alt=""/>}</td>
             <td>{data.answer}</td>
             <td>
                 <label><input type="checkbox" id="correct" checked={data.correct} onChange={onChangeCheckBox}/><span></span></label>

@@ -30,7 +30,7 @@ const QuizQuestionAnwerRow = (props) => {
                         <td>{props.answer}</td>
                         <td>{props.correct ? <i className="material-icons">check</i> : null}</td>
                         <td>{props.points}</td>
-                        <td><img src={props.imageLink} style={{"maxHeight":"100px"}}/></td>
+                        <td>{ props.imageLink && <img src={props.imageLink} style={{"maxHeight":"100px"}} alt=""/>}</td>
                         <td>
                             <a onClick={editAnswer} style={{"cursor": "pointer"}}><i className="material-icons">create</i></a>
                             <a onClick={handleDeleteAnswer} style={{"cursor": "pointer"}}><i className="material-icons">delete</i></a>
