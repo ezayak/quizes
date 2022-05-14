@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom';
+import { Route, Router, Routes } from 'react-router-dom';
 import { QuizList } from './routes/quiz-list/quiz-list.component';
 import { Navbar } from './routes/navigation/navbar.component';
 import { Fragment } from 'react';
@@ -10,15 +10,17 @@ import { QuizCheck } from './routes/quiz-check/quiz-check.component';
 function App() {
   return (
     <Fragment>
-      <Routes>
-          <Route path='/' element={<Navbar />}>
-              <Route index element={<QuizList />} />
-              <Route path='/quiz-edit/:id' element={<QuizEdit />} />
-              <Route path='/quiz-check/:eventId' element={<QuizCheck />} />
-          </Route>
-          <Route path='/quiz-student/:quizId/:eventId' element={<QuizStudent />} />
-          <Route path='/quiz-end' element={<QuizEnd />} />
-      </Routes>
+      <Router basename="/quizzes">
+        <Routes>
+            <Route path='/' element={<Navbar />}>
+                <Route index element={<QuizList />} />
+                <Route path='/quiz-edit/:id' element={<QuizEdit />} />
+                <Route path='/quiz-check/:eventId' element={<QuizCheck />} />
+            </Route>
+            <Route path='/quiz-student/:quizId/:eventId' element={<QuizStudent />} />
+            <Route path='/quiz-end' element={<QuizEnd />} />
+        </Routes>
+      </Router>
     </Fragment>
   );
 }
