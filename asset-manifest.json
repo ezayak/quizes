@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/quizes/static/css/main.afb05da2.css",
-    "main.js": "/quizes/static/js/main.5189e8d7.js",
-    "static/js/787.32477651.chunk.js": "/quizes/static/js/787.32477651.chunk.js",
-    "index.html": "/quizes/index.html",
-    "main.afb05da2.css.map": "/quizes/static/css/main.afb05da2.css.map",
-    "main.5189e8d7.js.map": "/quizes/static/js/main.5189e8d7.js.map",
-    "787.32477651.chunk.js.map": "/quizes/static/js/787.32477651.chunk.js.map"
+    "main.css": "./ezayak.github.io/quizes/static/css/main.afb05da2.css",
+    "main.js": "./ezayak.github.io/quizes/static/js/main.b5029a6e.js",
+    "static/js/787.32477651.chunk.js": "./ezayak.github.io/quizes/static/js/787.32477651.chunk.js",
+    "index.html": "./ezayak.github.io/quizes/index.html",
+    "main.afb05da2.css.map": "./ezayak.github.io/quizes/static/css/main.afb05da2.css.map",
+    "main.b5029a6e.js.map": "./ezayak.github.io/quizes/static/js/main.b5029a6e.js.map",
+    "787.32477651.chunk.js.map": "./ezayak.github.io/quizes/static/js/787.32477651.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.afb05da2.css",
-    "static/js/main.5189e8d7.js"
+    "static/js/main.b5029a6e.js"
   ]
 }
