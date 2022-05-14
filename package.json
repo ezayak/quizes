@@ -1,6 +1,6 @@
 {
   "name": "shcool-quizes",
-  "homepage": "https://ezayak.github.io/quizes",
+  "homepage": "./ezayak.github.io/quizes",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
