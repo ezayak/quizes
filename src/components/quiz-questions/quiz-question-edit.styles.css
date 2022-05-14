@@ -1,0 +1,43 @@
+.question-container {
+    border: 0.5px silver solid;
+    padding-top: 2rem;
+    padding-inline: 2rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 50rem;
+    max-width: 95%;
+    -webkit-box-shadow: 10px 10px 5px 0px rgb(0 0 0 / 75%);
+    z-index: 100;
+    margin: 0 0 0 0;
+    max-height: 90vh;
+    overflow: auto;
+}
+
+.action-row {
+    margin-top: 5rem;
+}
+
+.action-button {
+    width: 100%;
+}
+
+.scroll-inner {
+	max-height: 400px;
+    overflow-y: auto;
+}
+
+.row {
+    display: flex; /* equal height of the children */
+  }
+  
+  .col {
+    flex: 1; /* additionally, equal width */
+    
+    padding: 1em;
+    border: 0;
+  }
+
+

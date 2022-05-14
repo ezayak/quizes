@@ -1,0 +1,13 @@
+.quiz-edit {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.back-button {
+    display: flex;
+    margin: 1rem;   
+}
+
+.col-75 {
+    width: 75vh;
+}

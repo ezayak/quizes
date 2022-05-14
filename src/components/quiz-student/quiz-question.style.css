@@ -1,0 +1,32 @@
+.quiz-content {
+    min-height: calc(100vh - 6rem);
+    background-color: white;
+    padding: 2rem;
+}
+
+.main-container {
+    background-color: #efefef;
+    min-height: 100vh;
+    margin: 0 !important;
+}
+
+.page-content {
+    min-height: calc(100vh - 4rem - 220px);
+}
+
+.page {
+    min-height: calc(100vh - 4rem - 150px);
+}
+
+.answers {
+    min-height: calc(100vh - 4rem - 400px);
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 300px;
+}
+
+.answers-cotainer {
+}
+
+.picture-cotainer {
+}
